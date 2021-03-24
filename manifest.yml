@@ -1,0 +1,9 @@
+---
+applications:
+- name: gov-uk-paas-node
+  services:
+  - my-pg-service
+  command: node example.js
+  memory: 256M
+  buildpacks:
+  - https://github.com/cloudfoundry/nodejs-buildpack

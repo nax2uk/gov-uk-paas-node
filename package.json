@@ -1,0 +1,17 @@
+{
+    "name": "example",
+    "version": "0.0.1",
+    "author": "Demo",
+    "engines": {
+        "node": "15.11.0",
+        "npm": "7.6.0"
+    },
+    "scripts": {
+        "start": "node example.js"
+    },
+    "dependencies": {
+        "cfenv": "^1.2.3",
+        "express": "^4.17.1",
+        "pg": "^8.5.1"
+    }
+}
